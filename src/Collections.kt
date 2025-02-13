@@ -36,4 +36,10 @@ fun main() {
     println("[*] Numbers greater than 15: ${numbers.filter {it > 15}}");
     println("[*] Sorted List: ${numbers.sorted()}");
 
+    // part 6
+    println("\nPart 6:");
+    val floatList = listOf(2.5, 7.1, 3.8, 9.2, 5.6);
+    println("[*] Largest number: ${floatList.maxOrNull()}");
+    println("[*] Smalled number: ${floatList.minOrNull()}");
+
 }
