@@ -22,4 +22,12 @@ fun main() {
     countries.remove("USA");
     println("[*] Final Map: $countries");
 
+    // part 4
+    println("\nPart 4:");
+    val carBrands = mutableListOf("Toyota", "Hyundai", "BMW");
+    carBrands.add("Kia");
+    carBrands.add("Jetour");
+    carBrands.remove("Kia");
+    println("[*] " + carBrands);
+
 }
