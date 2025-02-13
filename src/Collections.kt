@@ -13,4 +13,13 @@ fun main() {
     dupNums.add(6);
     println("[*] " + dupNums);
 
+    // part 3
+    println("\nPart 3:");
+    val countries = mutableMapOf("USA" to "Washington", "France" to "Paris", "Germany" to "Berlin");
+    countries["Kuwait"] = "Kuwait City";
+    println("[*] Countries: ${countries.keys}");
+    println("[*] Capitals: ${countries.values}");
+    countries.remove("USA");
+    println("[*] Final Map: $countries");
+
 }
